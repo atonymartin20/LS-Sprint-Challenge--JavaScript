@@ -17,4 +17,4 @@
         4. Explicit Binding - Used during .call, .apply, .bind.
 
 5. Why do we need super() in an extended class?
-    A. Super passes attributes back to the constructore of the parent object.
+    A. Super passes attributes back to the constructor of the parent object.
