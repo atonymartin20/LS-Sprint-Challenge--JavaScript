@@ -16,17 +16,18 @@
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-// consume(2,2,add); // 4
-// consume(10,16,multiply); // 160
-// consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
+consume(2,2,add); // 4
+consume(10,16,multiply); // 160
+consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 
 // ==== Closures ==== 
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: 
-
+// Explanation: nestedfunction() can access the variable 'internal' because of closure.  Closure starts by looking inside itself but
+// there is no variable named 'internal' there.  Then it looks outside of its scope a level and it is in the function myFunction().
+// If 'internal' had not been there it would have continued looking outwards until it hit the window/global scope.
 
 const external = "I'm outside the function";
 
